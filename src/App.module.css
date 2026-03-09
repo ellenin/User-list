@@ -1,0 +1,40 @@
+.app {
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  margin: 0;
+}
+
+.content {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+}
+
+.card {
+  border-radius: 16px;
+}
+
+.usersScroll {
+  margin-top: 24px;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.usersCount {
+  margin-top: 16px;
+  text-align: right;
+}
